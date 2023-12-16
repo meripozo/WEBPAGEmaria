@@ -7,7 +7,9 @@ a{
     color: black;
 }
 body{
-    background-color: #000;
+    background-image:url('../images/background1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*-----------------*/
 nav{
