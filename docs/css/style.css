@@ -64,7 +64,12 @@ nav{
     width: 60%; 
     height: 60%;
 }
-
+.Topic{
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 30%; 
+    height: 30%;
+}
 .Contactme{
     margin-top: 20px;
     border-radius: 50px;
