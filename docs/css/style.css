@@ -55,6 +55,12 @@ nav{
     border-radius: 20px;
 
 }
+.MedicalHomeimage{
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 60%; 
+    height: 60%;
+}
 
 .Contactme{
     margin-top: 20px;
