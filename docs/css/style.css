@@ -51,7 +51,16 @@ nav{
     margin-top: 15%;
     margin-left: 15%;
     margin-bottom: 15%;
+    border-radius: 20px;
+
 }
+.Imgaboutme{
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 30%; 
+    height: 20%;"
+}
+
 /*------------------------------------------------------------------------------------*/
 .contenido{
     text-align: center;
@@ -67,6 +76,7 @@ h1{
 h3{
     
     background-color: rgb(36, 56, 84,0.5);
+    border-radius: 80px;
     text-align: center;
     margin-top: 10px;
     margin-left: 25%;
@@ -75,6 +85,7 @@ h3{
 p{
     margin-top:20px;
     background-color: rgb(36, 56, 84,0.5);
+    border-radius: 80px;
     text-align: center;
     margin-top: 10px;
     margin-left: 25%;
