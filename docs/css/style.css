@@ -18,14 +18,7 @@ nav{
     background-color: #64758C;
     display: flex;
 }
-.home{
-    background-color: #3E4A59;
-    filter: blur(0.5px);
-    width: 67px;
-    height: 67px;
-    border-radius: 100px;
-    margin: 6px;
-    margin-left: 10px;
+
 }
 .submenu{
     margin-left: auto;
