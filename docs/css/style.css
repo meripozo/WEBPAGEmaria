@@ -16,7 +16,7 @@ body{
 nav{
     width: 100%;
     height: 80px;
-    background-color: #64758C;
+    background-color: rgb(85, 102, 123,0.7);
     display: flex;
 }
 
@@ -30,7 +30,7 @@ nav{
     height: 67px;
 
     border-radius: 30px;
-    background: #55667b;
+    background-color: rgb(36, 56, 84,0.7);
     filter: blur(0.5px);
     margin: 6px;
 }
@@ -48,6 +48,7 @@ nav{
 
 
 .imgIcon{
+    border: 1px solid black; 
     width:60px;
     height: 60px;
     margin-top: 15%;
@@ -58,6 +59,7 @@ nav{
 }
 .MedicalHomeimage{
     margin-top: 20px;
+    border: 1px solid black; 
     border-radius: 50px;
     width: 60%; 
     height: 60%;
@@ -70,6 +72,7 @@ nav{
     height: 10%;
 }
 .Imgaboutme{
+    border: 1px solid black; 
     margin-top: 20px;
     border-radius: 50px;
     width: 30%; 
@@ -84,6 +87,7 @@ nav{
     
 
 h1{
+    padding: 1%;
     text-align: center;
     margin-top: 30px;
     color: white;
@@ -91,6 +95,7 @@ h1{
 
 }
 h2{
+    padding: 1%;
     color:white;
     border: 1px solid black; 
     background-color: rgb(36, 56, 84,0.4);
@@ -101,6 +106,18 @@ h2{
     margin-right: 25%;
 }
 h3{
+    padding: 1%;
+    color:white;
+    border: 1px solid black; 
+    background-color: rgb(36, 56, 84,0.4);
+    border-radius: 80px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+h4{
+    padding: 1%;
     color:white;
     border: 1px solid black; 
     background-color: rgb(36, 56, 84,0.4);
@@ -111,6 +128,8 @@ h3{
     margin-right: 25%;
 }
 p{
+    font-size: larger;
+    padding: 1%;
     color: white;
     border: 1px solid black;    
     background-color: rgb(36, 56, 84,0.4);
@@ -133,6 +152,7 @@ p{
     line-height: normal;
     text-align: center;
 }
+
 /*-------------------------------------------*/
 
 
@@ -141,16 +161,52 @@ p{
     font-family: Teko;
     width: 100%;
     height: 50px;
-    background-color: #64758C;
+    background-color: rgb(36, 56, 84,0.7);
     display: flex;
 }
 .link{
+    font-family: 'Nova Square', sans-serif;
+    color: white;
     width: 16.6666%;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    font-family: 'Teko', sans-serif;
 }
+form {
+    background-color: rgb(36, 56, 84,0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: rgb(149, 159, 172);
+    color: hwb(0 100% 0%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #495669;
+  }
 .link:hover{
     background-color: #495669;
 }
