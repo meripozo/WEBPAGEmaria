@@ -58,7 +58,6 @@ nav{
 
 }
 .MedicalHomeimage{
-    margin-bottom: 2%;
     margin-top: 20px;
     border: 1px solid black; 
     border-radius: 50px;
@@ -142,7 +141,17 @@ p{
     margin-left: 25%;
     margin-right: 25%;
 }
-
+}
+.title{
+    width: 100%;
+    color: #FFF;
+    font-family: 'Nova Square', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
 
 /*-------------------------------------------*/
 
@@ -200,5 +209,4 @@ form {
   }
 .link:hover{
     background-color: #495669;
-}
 }
